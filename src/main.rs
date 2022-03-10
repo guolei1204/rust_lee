@@ -63,8 +63,10 @@ fn main() {
     // Solution::heap_sort(&mut v);
     // println!("heap sort {:?}", v);
 
-    let r = Solution::merge_sort(v);
-    println!("merge sort: {:?}", r);
+    // let r = Solution::merge_sort(v);
+    // println!("merge sort: {:?}", r);
+    Solution::quick_sort(&mut v);
+    println!("quick sort :{:?}", &v);
 
     // println!("binary search ");
     // let r = Solution::selection_sort(&v);
